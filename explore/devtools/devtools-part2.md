@@ -1,0 +1,2 @@
+1. The bug was that num1 and num2 is declared as a object types therefore when inputting two numbers into the corresponding boxes, the numbers end up being added as string literals rather than numbers causing the incorrect answer. 
+2. I would fix this by defining num1 and num2 as numbers so the inputs would be converted to numbers before being added together so that the numbers are not being added as string literals.
